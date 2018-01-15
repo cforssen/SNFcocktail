@@ -5,6 +5,11 @@ dependencies:
 - scipy
 - matplotlib
 - nbdime
-- GPy
+- gpy
+- pandas
+- seaborn
+- jupyter
+- emcee
+
 
 
