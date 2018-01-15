@@ -2,8 +2,8 @@
 SNFcocktail
 ***********
 
-Maskininlärning, Bayesiansk statistik och lite fysik
-===========================================================
+Fysik, statistik och lite artificiell intelligens - en bild av den moderna ingenjören
+  ===========================================================
 :Author: Christian Forssen (christian.forssen@chalmers.se)
 
 Detta repo innehåller den pythonkod som användes för en presentation
