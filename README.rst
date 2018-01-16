@@ -24,13 +24,23 @@ Download the repo from github::
     git clone https://github.com/cforssen/SNFcocktail.git
 
 The scripts depend on several scientific modules (see
-environment.yml) and require a python3.5 installation. 
+the list in environment.yml) and require a python3.5 installation. 
 
 Dependencies are best installed using ``conda`` by creating
-a virtual environment:: 
+a virtual environment:
 
     conda env create
     source activate SNF-env
+
+ Note that we employ a very broad list of packages in this notebook.
+ After all, we explore several different application areas. The core
+ packages are numpy and matplotlib, while the others are used for the
+ various examples. It could happen that some packages are not included
+ in the conda default channel and that the above installation
+ fails. This should be solved by adding the
+ [conda-forge](https://conda-forge.org/) channel: 
+
+    conda config --add channels conda-forge
 
 To deactivate virtual environment::
 
@@ -45,6 +55,9 @@ notebook
 
 ``SNF_presentation_extra.ipynb`` ......... Some extra material,
 figures, etc.
+
+``Keras_Addition_rnn.ipynb``  ......... TensorFlow example, addition
+of integers in string format.
 
 ``environment.yml`` ... Package dependencies
 
