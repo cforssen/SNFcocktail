@@ -11914,18 +11914,17 @@ a.anchor-link {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Teoretisk-subatom&#228;r-fysik,-Institutionen-f&#246;r-fysik,-Chalmers">Teoretisk subatom&#228;r fysik, Institutionen f&#246;r fysik, Chalmers<a class="anchor-link" href="#Teoretisk-subatom&#228;r-fysik,-Institutionen-f&#246;r-fysik,-Chalmers">&#182;</a></h3><h4 id="2018-01-18,-SNF-Cocktail-party">2018-01-18, SNF Cocktail party<a class="anchor-link" href="#2018-01-18,-SNF-Cocktail-party">&#182;</a></h4><ul>
-<li>Denna presentation är baserad på en <a href="https://ipython.org/">ipython</a> notebook.</li>
+<li>Denna presentation är baserad på en <a href="https://ipython.org/">ipython</a> notebook. Själva presentationen är en <a href="https://revealjs.com/#/">Reveal.js</a> HTML slideshow skapad genom <a href="https://github.com/jupyter/nbconvert">nbconvert</a> direkt från ovan nämnda notebook.</li>
 <li>Allt material och källkod är samlat i säkert men publikt <a href="https://git-scm.com/">git</a> förvar (ett s.k. "git repository") på <a href="https://github.com/cforssen/SNFcocktail">github</a>, tillgängligt för alla och envar att ladda ner och testa själv.
 <pre><code>[~]$ git clone https://github.com/cforssen/SNFcocktail.git
 [~]$ cd SNFcocktail</code></pre>
 </li>
 <li>Se också <a href="http://fy.chalmers.se/subatom/tsp/index.php">Teoretisk subatomär fysiks</a> hemsida (se <a href="http://fy.chalmers.se/subatom/tsp/index.php?page=teaching">"for students"</a>).</li>
-<li>Själva presentationen är en <a href="https://revealjs.com/#/">Reveal.js</a> HTML slideshow skapad genom <a href="https://github.com/jupyter/nbconvert">nbconvert</a> direkt från ovan nämnda notebook.</li>
 </ul>
 
 </div>
 </div>
-</div></section></section><section><section>
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -11999,7 +11998,7 @@ a.anchor-link {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Python">Python<a class="anchor-link" href="#Python">&#182;</a></h2><p>Att installera Python, samt de bibliotek som möjliggör vetenskapliga beräkningar, är inte särskilt svårt.</p>
-<p>Jag rekommenderar Anaconda, som fungerar för Windows, Linux, och Mac OS X.</p>
+<p>Jag rekommenderar Anaconda, med pakethanteraren conda, som fungerar för Windows, Linux, och Mac OS X.</p>
 <ul>
 <li><a href="https://www.continuum.io/downloads">Anaconda</a> inkluderar både Python och conda, samt ett antal förinstallerade paket. Denna distribution tar dock en hel del plats. Ett alternativ är <a href="http://conda.pydata.org/miniconda.html">Miniconda</a>. Se också <a href="http://conda.pydata.org/docs/">condas online dokumentation</a></li>
 </ul>
@@ -12088,7 +12087,7 @@ a.anchor-link {
 <tr>
 <td>Kvantfenomen</td>
 <td>nano</td>
-<td>-Hur uppstår kollektiva fenomen med många partiklar? <br/>-Vilka unika egenskaper har öppna kvantsystem?</td>
+<td>-Hur uppstår kollektiva fenomen ur system med många partiklar? <br/>-Vilka unika egenskaper har öppna kvantsystem?</td>
 </tr>
 <tr>
 <td>Kärnfysik</td>
@@ -12147,39 +12146,6 @@ a.anchor-link {
 </div>
 </div>
 </div></div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>En klassisk analogi till en effektiv teori är multipolexpansion av ett elektriskt fält långt bort från en okänd (men liten) laddningsfördelning ($a \ll r$).</p>
-<p><img src="figures/charge_distribution.png" alt=""></p>
-<p>Dvs hur kan vi beskriva den elektriska potentialen som en summa av mindre och mindre viktiga termer (vi inför en dimensionslös expansionsparameter $\frac{a}{r} \ll 1$) samt ett begränsat antal okända parametrar $c_i$ (att jämföra med den stora mängd information som finns inbyggd i total kunskap om laddningsfördelningen):</p>
-<p>$$
-\phi(\vec{r}) = c_0 \left( \frac{a}{r} \right)^0 + c_1 \left( \frac{a}{r} \right)^1 + c_2 \left( \frac{a}{r} \right)^2 + \ldots
-$$</p>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Det visar sig (se dolt material...) att</p>
-<p>$$
-\phi(\vec{r}) \propto \frac{q}{r} \left[ 1 + \tilde{\mu}(\theta) \left( \frac{a}{r} \right)^1 + \tilde{Q}(\theta) \left( \frac{a}{r} \right)^2 + \mathcal{O}\left( \frac{a^3}{r^3} \right) \right]
-$$</p>
-<p>där</p>
-<ul>
-<li>$q$ är den totala laddningen hos laddningsfördelningen,</li>
-<li>$\tilde{\mu}(\theta)$ är dess (dimensionslösa) dipolmoment,</li>
-<li>$\tilde{Q}(\theta)$ är dess (dimensionslösa) kvadrupolmoment,</li>
-<li>etc</li>
-</ul>
-
-</div>
-</div>
-</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -12281,14 +12247,14 @@ där både $H$ och $\Psi$ beror på $N$ stycken koordinater och $N$ uppsättning
 </li>
 <li><p>Detta problem kan formuleras på olika sätt:</p>
 <ul>
-<li>t.ex. som en $3N$-dimensionell integral, t.ex. 36 dimensioner för kol-12.</li>
+<li>t.ex. som en $3(N-1)$-dimensionell integral, t.ex. 33 dimensioner för kol-12.</li>
 <li>Eller som ett matrisegenvärdesproblem<br/><br/>
 $\Psi = \sum_i^D c_i | \phi_i\rangle \quad \Rightarrow \quad \sum_j^D \langle \phi_j | H | \phi_i \rangle = E c_i$ <br/><br/>
 med problemet att $D$ kan vara $10^{10}$ eller ännu större!</li>
 </ul>
 </li>
 </ul>
-<p>... och dessutom är en prediktion väldigt lite värd utan en uppskattning av dess precision</p>
+<p>... och dessutom är prediktionen väldigt lite värd utan en uppskattning av dess precision</p>
 
 </div>
 </div>
@@ -14682,7 +14648,17 @@ nQf1VbvEzAQAAAAASUVORK5CYII=
 
 </div>
 </div>
-</div></div></section></section><section><section>
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="figures/machine_learning.png" alt="">
+XKCD web comic: <a href="https://xkcd.com/1838/">Machine learning</a></p>
+
+</div>
+</div>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
