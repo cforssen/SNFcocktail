@@ -11933,7 +11933,7 @@ a.anchor-link {
 <h2 id="Inneh&#229;ll">Inneh&#229;ll<a class="anchor-link" href="#Inneh&#229;ll">&#182;</a></h2><ul>
 <li>Först lite fysik</li>
 <li>... och lite statistik i två olika skepnader</li>
-<li>... plus lite beräkningsfysik för att möjliggöra statistiken</li>
+<li>... plus lite beräkningsfysik</li>
 <li>Sedan en ny horisont genom att kombinera fysik och statistik med maskininlärning</li>
 <li>... och slutligen framträder en bild av den moderna ingenjören!</li>
 </ul>
@@ -11975,12 +11975,12 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Referenser">Referenser<a class="anchor-link" href="#Referenser">&#182;</a></h3><ul>
+<h4 id="Referenser">Referenser<a class="anchor-link" href="#Referenser">&#182;</a></h4><ul>
 <li>Intressant och lärorik bloggpost <a href="http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/">"Frequentism and Bayesianism: A Practical Introduction"</a> på bloggen <a href="http://jakevdp.github.io">Pythonic Perambulations</a>.</li>
 <li>Litteratur: <a href="https://global.oup.com/academic/product/data-analysis-9780198568322?cc=se&amp;lang=en&amp;">Data Analysis: A Bayesian Tutorial</a> och <a href="https://www.cambridge.org/core/books/bayesian-logical-data-analysis-for-the-physical-sciences/09E9A95DAE275F5B005676C71B542598">Bayesian Logical Data Analysis for the Physical Sciences</a></li>
 <li><a href="http://sheffieldml.github.io/GPy/">GPy</a> en pythonmodul för Gaussprocesser (GP), från maskininlärningsgruppen på Sheffield University.</li>
 <li><a href="https://www.tensorflow.org/">TensorFlow</a> ett öppet programbibliotek för maskinintelligens genom neurala nätverk. Det utgör basen för <a href="https://keras.io/">Keras</a>: ett python API för Deep Learning.</li>
-<li>... för min del började detta med ett 24-dimensionellt optimeringsproblem och en gedigen statistisk analys (samt några mycket hängivna kandidatarbetare och en väldigt duktig doktorand): <a href="https://journals.aps.org/prx/abstract/10.1103/PhysRevX.6.011019">Phys. Rev. X 6 (2016) 011019</a>.</li>
+<li>... för min del började detta med ett 26-dimensionellt optimeringsproblem inom utvecklandet av effektiva fältteorier, en gedigen statistisk analys (samt några mycket hängivna kandidatarbetare och en väldigt duktig doktorand): <a href="https://journals.aps.org/prx/abstract/10.1103/PhysRevX.6.011019">Phys. Rev. X 6 (2016) 011019</a>.</li>
 </ul>
 
 </div>
@@ -12032,9 +12032,6 @@ a.anchor-link {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">warnings</span>
-<span class="n">warnings</span><span class="o">.</span><span class="n">simplefilter</span><span class="p">(</span><span class="s2">&quot;ignore&quot;</span><span class="p">,</span> <span class="ne">UserWarning</span><span class="p">)</span>
-<span class="n">warnings</span><span class="o">.</span><span class="n">simplefilter</span><span class="p">(</span><span class="s2">&quot;ignore&quot;</span><span class="p">,</span> <span class="ne">FutureWarning</span><span class="p">)</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 
 <span class="o">%</span><span class="k">matplotlib</span> inline
@@ -12052,6 +12049,16 @@ a.anchor-link {
 <h1 id="Subatom&#228;r-fysik">Subatom&#228;r fysik<a class="anchor-link" href="#Subatom&#228;r-fysik">&#182;</a></h1><h2 id="fr&#229;n-femtometer-till-kilometer">fr&#229;n femtometer till kilometer<a class="anchor-link" href="#fr&#229;n-femtometer-till-kilometer">&#182;</a></h2>
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="http://fy.chalmers.se/subatom/tsp/index.php">Theoretical Subatomic Physics</a>, Department of Physics, Chalmers</p>
+<p><img src="figures/800px-tsp.png" alt=""></p>
+
+</div>
+</div>
 </div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
@@ -12059,30 +12066,30 @@ a.anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Subatom&#228;r-fysik-&#228;r-fundamentalt-gr&#228;ns&#246;verskridande">Subatom&#228;r fysik &#228;r fundamentalt gr&#228;ns&#246;verskridande<a class="anchor-link" href="#Subatom&#228;r-fysik-&#228;r-fundamentalt-gr&#228;ns&#246;verskridande">&#182;</a></h3><table>
 <thead><tr>
-<th>Längdskala</th>
 <th>Vetenskapsfält</th>
+<th>Längdskala</th>
 <th>Exempel på vetenskapliga frågor</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>giga</td>
 <td>Astrofysik och kosmologi</td>
+<td>giga</td>
 <td>-Hur har våra grundämnen bildats i universum? <br/>-Vad är mörk materia?</td>
 </tr>
 <tr>
-<td>nano</td>
 <td>Kvantfenomen</td>
-<td>-Hur uppstår kollektiva fenomen från många partiklar? <br/>-Vilka unika egenskaper har öppna kvantsystem?</td>
+<td>nano</td>
+<td>-Hur uppstår kollektiva fenomen med många partiklar? <br/>-Vilka unika egenskaper har öppna kvantsystem?</td>
 </tr>
 <tr>
-<td>femto</td>
 <td>Kärnfysik</td>
+<td>femto</td>
 <td>-Vilka isotoper är bundna? <br/>-Kan atomkärnor användas för precisionstester av fundamentala symmetrier?</td>
 </tr>
 <tr>
-<td>subfemto</td>
 <td>Partikelfysik</td>
+<td>subfemto</td>
 <td>-Kan vi lösa QCD för hadroniska system? <br/>-Hur skulle en ny standardmodell för partikelfysik kunna konstrueras?</td>
 </tr>
 </tbody>
@@ -12266,8 +12273,8 @@ där både $H$ och $\Psi$ beror på $N$ stycken koordinater och $N$ uppsättning
 </li>
 <li><p>Detta problem kan formuleras på olika sätt:</p>
 <ul>
-<li>t.ex. som en $3N$-dimensionell integral</li>
-<li>Eller som en matrisegenvärdesproblem<br/><br/>
+<li>t.ex. som en $3N$-dimensionell integral, t.ex. 36 dimensioner för kol-12.</li>
+<li>Eller som ett matrisegenvärdesproblem<br/><br/>
 $\Psi = \sum_i^D c_i | \phi_i\rangle \quad \Rightarrow \quad \sum_j^D \langle \phi_j | H | \phi_i \rangle = E c_i$ <br/><br/>
 med problemet att $D$ kan vara $10^{10}$ eller ännu större!</li>
 </ul>
@@ -12290,7 +12297,7 @@ med problemet att $D$ kan vara $10^{10}$ eller ännu större!</li>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<blockquote><p><i>"Att vara osäker är obehagligt..."</i></p>
+<blockquote><p>Att vara osäker är obehagligt...</p>
 </blockquote>
 
 </div>
@@ -12300,7 +12307,7 @@ med problemet att $D$ kan vara $10^{10}$ eller ännu större!</li>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<blockquote><p><i>"... fast att vara helt säker skulle å andra sidan vara helt absurt!"</i></p>
+<blockquote><p>... fast att vara helt säker är å andra sidan helt absurt!</p>
 </blockquote>
 <p>Voltaire (fritt översatt)</p>
 
@@ -12312,7 +12319,7 @@ med problemet att $D$ kan vara $10^{10}$ eller ännu större!</li>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><img src="figures/scientific_wheel.png" alt="">
-<a href="SNF_presentation_extra.ipynb">Källkod i extramaterial</a></p>
+<a href="SNF_presentation_extra.ipynb">Källkod till figuren med XKCD font finns i extramaterialet</a></p>
 
 </div>
 </div>
@@ -12538,15 +12545,15 @@ $$</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The general Bayesian method of treating nuisance parameters is <em>marginalization</em>, or integrating the joint probability over the entire range of the nuisance parameter. In this case, that means that we will first calculate the joint distribution
-$$
+<p>The general Bayesian method of treating nuisance parameters is <em>marginalization</em>, or integrating the joint probability over the entire range of the nuisance parameter. In this case, that means that we will first calculate the joint distribution</p>
+<p>$$
 P(B,p~|~D)
-$$
-and then marginalize over $p$ using the following identity:
-$$
+$$</p>
+<p>and then marginalize over $p$ using the following identity:</p>
+<p>$$
 P(B~|~D) \equiv \int_{-\infty}^\infty P(B,p~|~D) {\mathrm d}p
-$$
-This identity follows from the definition of conditional probability, and the law of total probability: that is, it is a fundamental consequence of probability axioms and will always be true. Even a frequentist would recognize this; they would simply disagree with our interpretation of $P(p)$ as being a measure of uncertainty of our own knowledge.</p>
+$$</p>
+<p>This identity follows from the definition of conditional probability, and the law of total probability: that is, it is a fundamental consequence of probability axioms and will always be true. Even a frequentist would recognize this; they would simply disagree with our interpretation of $P(p)$ as being a measure of uncertainty of our own knowledge.</p>
 
 </div>
 </div>
@@ -12612,7 +12619,7 @@ $$</p>
 <ul>
 <li>$P(B~|~p,D)$: This term is exactly the frequentist likelihood we used above. In words: given a marker placement $p$ and the fact that Alice has won 5 times and Bob 3 times, what is the probability that Bob will go on to six wins?  Bob needs three wins in a row, i.e. $P(B~|~p,D) = (1 - p) ^ 3$.</li>
 <li>$P(D~|~p)$: this is another easy-to-compute term. In words: given a probability $p$, what is the likelihood of exactly 5 positive outcomes out of eight trials? The answer comes from the well-known <a href="http://en.wikipedia.org/wiki/Binomial_distribution">Binomial distribution</a>: in this case $P(D~|~p) \propto p^5 (1-p)^3$</li>
-<li>$P(p)$: this is our prior on the probability $p$. By the problem definition, we can assume that $p$ is evenly drawn between 0 and 1.  That is, $P(p) \propto 1$, and the integrals range from 0 to 1.</li>
+<li>$P(p)$: this is our prior on the probability $p$. By the problem definition, we can assume that $p$ is evenly drawn between 0 and 1.  That is, $P(p)$ is a uniform probability distribution in the range from 0 to 1.</li>
 </ul>
 
 </div>
@@ -12845,7 +12852,7 @@ MC Odds against Bob winning: 10 to 1
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The Monte Carlo approach gives 10-to-1 odds on Bob, which agrees with the Bayesian approach. Apparently, our naïve frequentist approach above was flawed.</p>
+<p>The Monte Carlo approach gives 10-to-1 odds on Bob, which agrees with the Bayesian approach. Apparently, our naive frequentist approach above was flawed.</p>
 
 </div>
 </div>
@@ -12863,7 +12870,7 @@ MC Odds against Bob winning: 10 to 1
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>This example shows several different approaches to dealing with the presence of a nuisance parameter <em>p</em>. The Monte Carlo simulation gives us a close brute-force estimate of the true probability (assuming the validity of our assumptions), which the Bayesian approach matches. The naïve frequentist approach, by utilizing a single maximum likelihood estimate of the nuisance parameter $p$, arrives at the wrong result.</p>
-<p>We should emphasize that <strong>this does not imply frequentism itself is incorrect</strong>. The incorrect result above is more a matter of the approach being "naïve" than it being "frequentist". There certainly exist frequentist methods for handling this sort of nuisance parameter – for example, it is theoretically possible to apply a transformation and conditioning of the data to isolate the dependence on $p$ – but it's hard to find any approach to this particular problem that does not somehow take advantage of Bayesian-like marginalization over $p$.</p>
+<p>We should emphasize that <strong>this does not imply frequentism itself is incorrect</strong>. The incorrect result above is more a matter of the approach being "naive" than it being "frequentist". There certainly exist frequentist methods for handling this sort of nuisance parameter – for example, it is theoretically possible to apply a transformation and conditioning of the data to isolate the dependence on $p$ – but it's hard to find any approach to this particular problem that does not somehow take advantage of Bayesian-like marginalization over $p$.</p>
 
 </div>
 </div>
@@ -12877,7 +12884,7 @@ Hämtat från bloggposten <a href="http://jakevdp.github.io/blog/2014/06/06/freq
 
 </div>
 </div>
-</div></section><section>
+</div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -12886,7 +12893,7 @@ Hämtat från bloggposten <a href="http://jakevdp.github.io/blog/2014/06/06/freq
 
 </div>
 </div>
-</div>
+</div></div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[3]:</div>
@@ -13083,7 +13090,16 @@ KBOnRyYiUglOrUBEpBIsfCIilWDhExGpBAufiEglWPhERCrBwiciUgkWPhGRSrDwiYhUgoVPRKQS
 </div>
 </div>
 
-</div></section><section>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Our task is to find a line of best-fit to the data. It's clear upon visual inspection that there are some outliers among these points, but let's start with a simple non-robust maximum likelihood approach.</p>
+
+</div>
+</div>
+</div></div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -14626,14 +14642,6 @@ nQf1VbvEzAQAAAAASUVORK5CYII=
 <h1 id="Maskininl&#228;rning">Maskininl&#228;rning<a class="anchor-link" href="#Maskininl&#228;rning">&#182;</a></h1>
 </div>
 </div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Vad-&#228;r-maskininl&#228;rning?">Vad &#228;r maskininl&#228;rning?<a class="anchor-link" href="#Vad-&#228;r-maskininl&#228;rning?">&#182;</a></h2>
-</div>
-</div>
 </div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
@@ -14671,7 +14679,7 @@ nQf1VbvEzAQAAAAASUVORK5CYII=
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Neurala-n&#228;tverk,-deep-learning-och-TensorFlow">Neurala n&#228;tverk, deep learning och TensorFlow<a class="anchor-link" href="#Neurala-n&#228;tverk,-deep-learning-och-TensorFlow">&#182;</a></h1><p><img src="figures/500px-neural_network.png" alt=""></p>
+<h2 id="Maskininl&#228;rning-del-1:">Maskininl&#228;rning del 1:<a class="anchor-link" href="#Maskininl&#228;rning-del-1:">&#182;</a></h2><h3 id="Neurala-n&#228;tverk,-deep-learning-och-TensorFlow">Neurala n&#228;tverk, deep learning och TensorFlow<a class="anchor-link" href="#Neurala-n&#228;tverk,-deep-learning-och-TensorFlow">&#182;</a></h3><p><img src="figures/400px-neural_network.png" alt=""></p>
 
 </div>
 </div>
@@ -14689,7 +14697,12 @@ nQf1VbvEzAQAAAAASUVORK5CYII=
 <li>Självkörande bilar</li>
 <li>mm, mm,mm</li>
 </ul>
-<p>Mycket av detta har blivit möjligt genom tillgång till stora datamängder (att träna på) och nya algoritmer (t.ex. deep learning) och ny teknologi (t.ex. gpu) för att kunna utföra maskininlärningen i praktiken.</p>
+<p>Mycket av detta har blivit möjligt genom tillgång till</p>
+<ul>
+<li>stora datamängder (att träna på) </li>
+<li>nya algoritmer (t.ex. deep learning) </li>
+<li>samt ny teknologi (t.ex. gpu) som möjliggör att utföra maskininlärningen i praktiken.</li>
+</ul>
 
 </div>
 </div>
@@ -14717,7 +14730,7 @@ från <a href="https://arxiv.org/abs/1412.2306">arXiv:1412.2306</a></p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>För den vill vill testa att bygga ett neuralt nätverk rekommenderas <a href="https://www.tensorflow.org/">TensorFlow</a> som är ett öppet programbibliotek för maskinintelligens genom neurala nätverk. Personligen tyckte jag att TensorFlow blir enklare att använda genom ett python API som heter <a href="https://keras.io/">Keras</a>.</p>
-<p>Ett exempel från deras <a href="https://github.com/keras-team/keras/tree/master/examples">exempelbibliotek</a> finns i en separat ipython notebook <a href="Keras_Addition_rnn.ipynb">Keras_Addition_rnn.ipynb</a> som ni gärna får testa.</p>
+<p>Ett exempel från deras <a href="https://github.com/keras-team/keras/tree/master/examples">exempelbibliotek</a> finns i en separat <a href="Keras_Addition_rnn.ipynb">ipython notebook</a> som ni gärna får testa.</p>
 <p>Uppgiften är att lära ett neuralt nätverk med tre lager och 200.000 parametrar att addera två tresiffriga tal. Både själva additionen och svaret skall representeras som strängar.</p>
 
 </div>
@@ -14848,11 +14861,20 @@ Q 13+983  T 996  ☑ 996
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>Fysiker är ofta väldigt snabba på att ta till sig nya möjligheter, och att utveckla dem vidare. Ofta erbjuder forskning inom fundamental fysik väldigt stora utmaningar.</p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p><img src="figures/QMBwithANN_science.png" alt=""></p>
 
 </div>
 </div>
-</div></section><section>
+</div></div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -14866,7 +14888,7 @@ Q 13+983  T 996  ☑ 996
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Gaussprocesser">Gaussprocesser<a class="anchor-link" href="#Gaussprocesser">&#182;</a></h1><p>Antag att det finns en okänd funktion
+<h2 id="Maskininl&#228;rning-del-2:">Maskininl&#228;rning del 2:<a class="anchor-link" href="#Maskininl&#228;rning-del-2:">&#182;</a></h2><h3 id="Gaussprocesser">Gaussprocesser<a class="anchor-link" href="#Gaussprocesser">&#182;</a></h3><p>Antag att det finns en okänd funktion
 $$
 f: x \mapsto y
 $$</p>
@@ -15987,6 +16009,17 @@ OAKBQCAICCLgCAQCgSAgiIAjEAgEgoAgAo5AIBAIAsL/Bz+Bnt4CEiUpAAAAAElFTkSuQmCC
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>Minns ni de stora parameterrummen i chiral EFT,</p>
+<p>... och den stora beräkningskostnaden för att göra en prediktion?</p>
+<p>Tänk er då att försöka göra en osäkerhetsanalys på en sådan teori.</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Chiral-effective-field-theory-with-machine-learning">Chiral effective field theory with machine learning<a class="anchor-link" href="#Chiral-effective-field-theory-with-machine-learning">&#182;</a></h3><h4 id="Bachelor&#8217;s-thesis-in-Subatomic-PhysicsJohannes-Aspman,-Emil-Ejbyfeldt,-Anton-Kollmats,-Maximilian-Leyman,-2016-pdf">Bachelor&#8217;s thesis in Subatomic Physics<br />Johannes Aspman, Emil Ejbyfeldt, Anton Kollmats, Maximilian Leyman, 2016 <a href="publications.lib.chalmers.se/records/fulltext/241791/241791.pdf">pdf</a><a class="anchor-link" href="#Bachelor&#8217;s-thesis-in-Subatomic-PhysicsJohannes-Aspman,-Emil-Ejbyfeldt,-Anton-Kollmats,-Maximilian-Leyman,-2016-pdf">&#182;</a></h4><p><img src="figures/boundstate_predict100000.png" alt="">
 11 parametrar, 100 träningspunkter, 100.000 emuleringar</p>
 
@@ -16005,10 +16038,10 @@ OAKBQCAICCLgCAQCgSAgiIAjEAgEgoAgAo5AIBAIAsL/Bz+Bnt4CEiUpAAAAAElFTkSuQmCC
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Vad har vi gjort?</p>
+<p>Här framträder en bild av en modern ingenjör. Vi har gjort:</p>
 <ul>
 <li>lite fysik, lite statistik, lite beräkningsfysik och lite maskininlärning;</li>
-<li>med målet att simulera något ganska komplicerat;</li>
+<li>tillsammans ger detta verktyg att ta oss an en väldigt bred palett av utmaningar;</li>
 <li>och att försöka förstå vad våra resultat innebär.</li>
 </ul>
 
